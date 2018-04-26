@@ -1,6 +1,6 @@
 {
   "name": "@collab-ui/release",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "NPM tool to automate Collab UI publishing tasks.",
   "main": "index.js",
   "bin": {
