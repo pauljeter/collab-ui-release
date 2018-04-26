@@ -1,0 +1,29 @@
+{
+  "name": "@collab-ui/release",
+  "version": "2.0.0",
+  "description": "NPM tool to automate Collab UI publishing tasks.",
+  "main": "index.js",
+  "bin": {
+    "toolkit-pub": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://wwwin-github.cisco.com/collab-ui/toolkit-pub.git"
+  },
+  "author": "jlowery",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "ciscospark": "^0.7.41",
+    "github": "^8.1.0",
+    "inquirer": "^2.0.0",
+    "retry-bluebird": "^0.1.1"
+  },
+  "publishConfig": {
+    "registry": "http://engci-maven-master.cisco.com/artifactory/api/npm/collab-npm",
+    "always-auth": true
+  }
+}
